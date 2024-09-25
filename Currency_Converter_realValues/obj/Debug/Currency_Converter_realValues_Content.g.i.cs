@@ -8,10 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/cc_i.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/converotr.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/delete.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/edit.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/money.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("apikey.txt")]
 
 

@@ -17,3 +17,5 @@ C:\Users\artem\source\repos\Currency_Converter_realValues\Currency_Converter_rea
 C:\Users\artem\source\repos\Currency_Converter_realValues\Currency_Converter_realValues\obj\Debug\Currency_Converter_realValues.exe
 C:\Users\artem\source\repos\Currency_Converter_realValues\Currency_Converter_realValues\obj\Debug\Currency_Converter_realValues.pdb
 C:\Users\artem\source\repos\Currency_Converter_realValues\Currency_Converter_realValues\obj\Debug\App.baml
+C:\Users\artem\source\repos\Currency_Converter_realValues\Currency_Converter_realValues\bin\Debug\Newtonsoft.Json.dll
+C:\Users\artem\source\repos\Currency_Converter_realValues\Currency_Converter_realValues\bin\Debug\Newtonsoft.Json.xml

@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.CodeDom;
 using System.Data;
 using System.IO;
 using System.Net.Http;
@@ -53,9 +54,16 @@ namespace Currency_Converter_realValues
 
         private async void GetValue()
         {
-            string apiKey = File.ReadAllText("C:\\Users\\artem\\source\\repos\\Currency_Converter_realValues\\Currency_Converter_realValues\\ApiKey.txt");
-            string url = $"https://openexchangerates.org/api/latest.json?app_id={apiKey}";
-            val = await GetData<Root>(url);
+            try
+            {
+                string apiKey = File.ReadAllText("C:\\Users\\artem\\source\\repos\\Currency_Converter_realValues\\Currency_Converter_realValues\\ApiKey.txt");
+                string url = $"https://openexchangerates.org/api/latest.json?app_id={apiKey}";
+                val = await GetData<Root>(url);
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
             BindCurrency();
         }
 

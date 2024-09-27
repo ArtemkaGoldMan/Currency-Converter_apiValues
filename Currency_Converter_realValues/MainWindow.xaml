@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Currency_Converter_realValues"
         xmlns:fa="http://schemas.fontawesome.io/icons/"
         mc:Ignorable="d"
+        Icon="Images/money.png"
         Title="Currency Converter" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" 
         MinHeight="580" MinWidth="1000" MaxHeight="580" MaxWidth="1000">
     <Grid>

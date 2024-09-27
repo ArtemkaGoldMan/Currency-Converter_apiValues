@@ -64,6 +64,3 @@ Currency Converter is a WPF-based desktop application built using C# that enable
 
 This project uses the OpenExchangeRates API with a free-tier license. See their [terms of service](https://openexchangerates.org/terms) for details.
 
----
-
-Feel free to modify any part of this to better match your project’s details!
